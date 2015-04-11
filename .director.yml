@@ -1,4 +1,11 @@
 # An example .director.yml file, would work for a symfony app.
+
+# List of services this app requires.
+# name: type.
+services:
+    web: apache
+    db: mysql
+
 web:
     document_root: "/www"
 
