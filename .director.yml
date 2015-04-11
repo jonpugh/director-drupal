@@ -6,5 +6,6 @@ hooks:
     build: |
       drush make drupal.make www -y
     deploy: |
+      drush status
       drush updb -y
       drush cc all
