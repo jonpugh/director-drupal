@@ -4,7 +4,7 @@
 # name: type.
 services:
     web: apache
-    db: mysql
+    database: mysql
 
 web:
     document_root: "/www"
