@@ -11,8 +11,7 @@ web:
 
 hooks:
     build: |
-      drush make drupal.make www -y
+      drush make drupal.make www --prepare-install -y
     deploy: |
-      drush status
       drush updb -y
       drush cc all
